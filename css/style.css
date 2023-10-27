@@ -40,7 +40,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Urbanist', sans-serif; }
 
 a {
   text-decoration: none;
@@ -147,7 +147,10 @@ textarea {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
   .btn:hover {
-    transform: translateY(-3px); }
+    transform: translateY(-3px);
+    border-radius: 30px;
+    transition: .5s ease;
+  }
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
